@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: mavenwebapp-replicaset
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      name: mavenwebapp
+  template:
+    metadata:
+      name: mavenwebapppod
+      labels:
+        name: mavenwebapp
+    spec:
+      containers:
+      - name: mavenwebappcontainer
+        image: visureddy247/maven-web-app
+        ports:
+        - containerPort: 8080
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: mavenwebappsvc
+spec:
+  type: NodePort
+  selector:
+    name: mavenwebapp
+  ports:
+  - port: 80
+    targetPort: 8080
