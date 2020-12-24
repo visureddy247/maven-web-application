@@ -22,7 +22,7 @@
 		Ananthapur,
 		Andhrapradesh,
 		+91-9550557316,+91-9550557315
-		v.viswanathreddy3e@gmail.com@gmail.com
+		v.viswanathreddy3e@gmail.com
 		<br>
 		<a href="mailto:v.viswanathreddy3e@gmail.com">Mail to TVM</a>
 	</span>
