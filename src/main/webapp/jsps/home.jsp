@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MithunTechnologies- Home Page</title>
+<title>TVM- Home Page</title>
 <link href="images/PhotoGrid_1563599926626.jpg" rel="icon">
 </head>
 </head>
